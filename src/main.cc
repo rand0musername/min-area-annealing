@@ -148,7 +148,7 @@ vector<geometry::Point> SimulatedAnnealing(const vector<geometry::Point>& points
 }
 
 // Params:
-// ./main <test_number> <run_number> <starting_temp> <num_steps> <use_3swaps>
+// ./main <test_number> <run_number> <starting_temp> <num_steps> <use_three_swaps>
 int main(int argc, char* argv[]) {
     srand(time(NULL));
     
